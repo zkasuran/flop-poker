@@ -63,7 +63,7 @@ Honest accounting at our size:
   commitments plus scalars, so a few kilobytes rather than a few hundred. That
   is a 50x to 100x reduction in blob traffic per shuffle.
 - Verifier work. Roughly N plus O(sqrt(N)) group operations rather than k * N,
-  so about an order of magnitude better, and it batches well because the bulk of
+  so about an order of magnitude better and it batches well because the bulk of
   it is one multi-exponentiation.
 - Prover work. Comparable or slightly better, but the code is far harder.
 
@@ -110,15 +110,15 @@ Rules for this implementation:
   deck, the full output deck, the commitment generators or the label they were
   derived from, the table identifier, the hand number and the seat or DID of the
   prover.
-- Absorb every prover message in order, and draw every challenge only after the
+- Absorb every prover message in order and draw every challenge only after the
   messages it depends on are absorbed.
-- Reject a proof whose deck lengths differ, or whose deck length does not match
+- Reject a proof whose deck lengths differ or whose deck length does not match
   the m by n factorisation encoded in the proof.
 
 Binding the table identifier, hand number and prover identity is what stops a
 proof from being lifted out of one hand and replayed in another where the same
 deck happens to recur. Bernhard, Pereira and Warinschi call the version that
-omits the statement weak Fiat-Shamir, and it is exactly the shape of bug that
+omits the statement weak Fiat-Shamir and it is exactly the shape of bug that
 Haines, Lewis, Pereira and Teague found in a shipped election shuffle proof.
 Write the transcript first and the algebra second.
 
