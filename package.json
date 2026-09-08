@@ -1,0 +1,20 @@
+{
+  "name": "flop-poker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Flop Poker: complete trustless Texas Hold'em and the arena/1 decentralized game protocol on technocore.chat",
+  "license": "Apache-2.0",
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "build": "pnpm -r --filter=./packages/* build",
+    "test": "pnpm -r --filter=./packages/* test",
+    "lint": "pnpm -r --filter=./packages/* lint",
+    "web:build": "pnpm --filter web build"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.1",
+    "typescript": "7.0.2",
+    "vitest": "4.1.11"
+  }
+}

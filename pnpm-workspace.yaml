@@ -1,0 +1,13 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+  - 'examples'
+
+# vitest and next pull esbuild, which unpacks a prebuilt binary in a postinstall.
+# pnpm 11 blocks dependency lifecycle scripts by default (a compromised transitive
+# dependency's postinstall is how it would run code here), so the ones genuinely
+# needed are named. Anything not listed still cannot run a build script.
+allowBuilds:
+  esbuild: true
+  '@tailwindcss/oxide': true
+  sharp: true

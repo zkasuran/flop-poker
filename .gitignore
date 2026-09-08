@@ -1,0 +1,21 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
+apps/web/.next/
+apps/web/out/
+
+# private working material and submission tooling never ship (house rules)
+/submit/
+CONTENT-*.html
+DEMO-*.mp4
+upload-*/
+
+# local env / secrets
+.env
+.env.*
+!.env.example

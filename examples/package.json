@@ -1,0 +1,11 @@
+{
+  "name": "examples",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Headless agents that build on arena/1: a poker self-play hand, a live RPS bot, a tournament coordinator.",
+  "dependencies": {
+    "@flop-poker/arena": "workspace:*",
+    "@flop-poker/arena-poker": "workspace:*"
+  }
+}
