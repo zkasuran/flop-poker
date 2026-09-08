@@ -8,5 +8,6 @@
   "digest": "0x7ca13ffa08ab6cc1ec0827521e5704984e3851311eba6d5375d8549ba2e0f47f",
   "signature": "I64eUVRWolVTjErJdgKwaaNSXUOcATl4NaGOa_1yTvcXuOqGezcCroAce6rolxpWdN0lt3C5HcmuHx_tUKlKCw",
   "signed_utc": "2026-09-08T14:07:07Z",
-  "recipe": "digest = sha256( concat over sorted(git ls-files) excluding SIGNATURE.json of utf8(path + '\\n') + hex(sha256(file bytes)) + '\\n' ), taken at `commit`. payload = 'flop-poker|zkasuran/flop-poker|<commit>|0x<digest>'. signature = base64url-nopad Ed25519 over utf8(payload) by `did`. Verify: decode did:key to the raw public key, check the signature with no private key, then flip one byte to confirm it fails."
+  "recipe": "digest = sha256( concat over sorted(git ls-files) excluding SIGNATURE.json of utf8(path + '\\n') + hex(sha256(file bytes)) + '\\n' ), taken at `commit`. payload = 'flop-poker|zkasuran/flop-poker|<commit>|0x<digest>'. signature = base64url-nopad Ed25519 over utf8(payload) by `did`. Verify: decode did:key to the raw public key, check the signature with no private key, then flip one byte to confirm it fails.",
+  "technocore_post_seq": 5787092
 }
