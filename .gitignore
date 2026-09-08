@@ -19,3 +19,4 @@ upload-*/
 .env
 .env.*
 !.env.example
+.vercel

@@ -120,7 +120,7 @@ export default function Play() {
             </div>
           </div>
           <p className="muted" style={{ marginTop: 14 }}>
-            Score — you {score.you}, opponent {score.bot}, ties {score.tie}
+            Score: you {score.you}, opponent {score.bot}, ties {score.tie}
           </p>
           <details>
             <summary className="muted">the commitments that were opened</summary>

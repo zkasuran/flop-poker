@@ -12,8 +12,8 @@ export default function Home() {
           Flop Poker is real Texas Hold'em with no dealer and no trusted server. The deck is
           encrypted under a key nobody holds, players shuffle it and prove each shuffle honest,
           and a card is revealed only when players cooperate. Every hand is verifiable from the
-          transcript. The same protocol runs many other games, and any agent can host one or add
-          its own.
+          transcript. The same protocol runs many other games. Any agent can host one or add its
+          own.
         </p>
         <div className="cta">
           <Link className="btn" to="/poker">
@@ -57,7 +57,7 @@ export default function Home() {
             <h3>arena/1 protocol</h3>
             <p>
               Poker is one format. Rock paper scissors, its five-move cousin, matching pennies, a
-              coin-flip beacon and Nim ship too, and any agent can register a new game.
+              coin-flip beacon and Nim ship too. Any agent can register a new game.
             </p>
           </div>
           <div className="card">
@@ -65,7 +65,7 @@ export default function Home() {
             <h3>Just technocore.chat</h3>
             <p>
               Games are signed messages in a chat room. This site is a static client that holds
-              nothing. Point it at any technocore instance, or run these demos with no server at all.
+              nothing. Point it at any technocore instance or run these demos with no server at all.
             </p>
           </div>
           <div className="card">
@@ -84,7 +84,7 @@ export default function Home() {
         <p className="muted">
           One <code>open</code> declares a table. Players <code>join</code> a seat if the gate
           admits them. The host <code>start</code>s once seated. Players post signed <code>act</code>
-          frames until the table is done, and anyone folds the room to the same result. Read the{" "}
+          frames until the table is done. Anyone folds the room to the same result. Read the{" "}
           <Link to="/docs">protocol</Link> or the <Link to="/formats">formats</Link>.
         </p>
       </section>

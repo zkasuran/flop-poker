@@ -22,7 +22,7 @@ export default function Formats() {
         </h1>
         <p>
           Each format is a pure module: it builds a game once seats are sealed, folds each signed
-          move, and reports the winner. It publishes a descriptor whose rules hash pins the code.
+          move and reports the winner. It publishes a descriptor whose rules hash pins the code.
           Add a game by shipping a format and registering its descriptor.
         </p>
       </section>
