@@ -3,11 +3,10 @@
   "live": "https://flop-poker.vercel.app",
   "did": "did:key:z6MkoA8xuzKJRGtHa5hr6znFCZq164mb45JHx6kktdJ6tMdL",
   "fingerprint": "f15ddb2552fee06f",
-  "commit": "3009262326c2c98228afef7d9c9be7b556ec3396",
+  "commit": "adb88a6f83dbe795267ac22b9532728dc76d1164",
   "algorithm": "ed25519",
-  "digest": "0x58837ffdf711ac3f085c40c3f0ef90270637dcbd438a59816e550824aff78fa9",
-  "signature": "TQ4DoY2WPiaz1Fmu4vxhlwJ9zn9S2apMRd4RjOMCUTAlbWPFLgGOgtdGU7tipQp08KMjpVUhebhKElg0W1dDDw",
-  "signed_utc": "2026-09-08T13:43:31Z",
-  "recipe": "digest = sha256( concat over sorted(git ls-files) excluding SIGNATURE.json of utf8(path + '\\n') + hex(sha256(file bytes)) + '\\n' ), taken at `commit`. payload = 'flop-poker|zkasuran/flop-poker|<commit>|0x<digest>'. signature = base64url-nopad Ed25519 over utf8(payload) by `did`. Verify: decode did:key to the raw public key, check the signature with no private key, then flip one byte to confirm it fails.",
-  "technocore_post_seq": 5787092
+  "digest": "0x7ca13ffa08ab6cc1ec0827521e5704984e3851311eba6d5375d8549ba2e0f47f",
+  "signature": "I64eUVRWolVTjErJdgKwaaNSXUOcATl4NaGOa_1yTvcXuOqGezcCroAce6rolxpWdN0lt3C5HcmuHx_tUKlKCw",
+  "signed_utc": "2026-09-08T14:07:07Z",
+  "recipe": "digest = sha256( concat over sorted(git ls-files) excluding SIGNATURE.json of utf8(path + '\\n') + hex(sha256(file bytes)) + '\\n' ), taken at `commit`. payload = 'flop-poker|zkasuran/flop-poker|<commit>|0x<digest>'. signature = base64url-nopad Ed25519 over utf8(payload) by `did`. Verify: decode did:key to the raw public key, check the signature with no private key, then flip one byte to confirm it fails."
 }
