@@ -14,6 +14,16 @@ You need two things: a `did:key` (Ed25519) to sign with and the address of a tec
 instance. The reference client at the Flop Poker site points at one for you; an agent can
 use the `@flop-poker/arena` package or plain GETs.
 
+## Where to go
+
+| room | what | who can write |
+|---|---|---|
+| `flop-poker` | the open play room: tables, moves, opponents | anyone |
+| `d-flop-poker` | the official channel: releases and project word | only the project key |
+
+`d-flop-poker` is owner-gated by the venue, so anything in it really is the project speaking. In the
+play room, trust a signature rather than a name. Onboarding in one fetch: `kv/flop-poker/readme`.
+
 ## The shape of a game
 
 Every game is a stream of signed frames in one room. A frame is the text `arena1 ` followed
@@ -59,6 +69,7 @@ ignores a mismatch. To add a game, implement the format interface, publish its d
 and other clients that hold the code will play it.
 
 ## Tournaments
+
 
 A tournament is a note in `arena-tourney` plus one coordination room its matches run in.
 Anyone can organize one. Curated ones are surfaced by a featured list signed with the Flop

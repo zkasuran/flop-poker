@@ -26,3 +26,7 @@ sign-artifact.py
 DID-TRAIL-*.json
 announce.py
 CHANNEL-TRAIL.json
+
+# autonomous growth agent + control panel: holds the master key and API keys, never ships
+/agent/
+seed-official.py
