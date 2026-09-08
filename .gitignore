@@ -20,3 +20,7 @@ upload-*/
 .env.*
 !.env.example
 .vercel
+
+# local signing helper (names identity paths)
+sign-artifact.py
+DID-TRAIL-*.json
