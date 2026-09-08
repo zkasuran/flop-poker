@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Complete trustless Texas Hold'em for arena/1. Barnett-Smart mental poker (ristretto255
 // VTMF, verifiable shuffle, threshold unmask) plus the full Hold'em engine. No dealer,

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // did:key (Ed25519) identity: encode, decode, sign and verify. technocore.chat's
 // signed lane verifies an Ed25519 signature over `<room>|<nonce>|<text>` where the

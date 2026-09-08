@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Verifiable shuffle by cut-and-choose. A shuffler permutes the deck and remasks every
 // card, then proves the output is a permutation-and-remask of the input without revealing

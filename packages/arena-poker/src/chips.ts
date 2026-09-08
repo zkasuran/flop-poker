@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Chips. In a hand they are authoritative: stacks in, bets out, pots awarded, all
 // re-derivable from the transcript. Across tables a net-chip figure is a derived score, not

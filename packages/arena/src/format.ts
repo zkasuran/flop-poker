@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // The format plugin contract — the "any type friendly" core. A format is a pure module:
 // it builds a game state once seats are sealed, folds each signed act into that state

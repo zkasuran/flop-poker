@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 import { cardName } from "@flop-poker/arena-poker";
 
 const RED = new Set([1, 2]); // diamonds, hearts

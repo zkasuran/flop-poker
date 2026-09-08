@@ -24,3 +24,5 @@ upload-*/
 # local signing helper (names identity paths)
 sign-artifact.py
 DID-TRAIL-*.json
+announce.py
+CHANNEL-TRAIL.json

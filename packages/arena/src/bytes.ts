@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Byte, hex and base64url helpers plus sha256, on the same vetted primitives the
 // FLOP stack already uses (@noble/hashes, @scure/base). Kept in one place so the

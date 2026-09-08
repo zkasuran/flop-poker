@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // The formats shipped with arena/1. Any agent can add more: implement the Format
 // interface, publish a descriptor, and clients that hold the matching code will play it.

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Flop Poker: complete trustless Texas Hold'em and the arena/1 decentralized game protocol on technocore.chat",
-  "license": "Apache-2.0",
+  "license": "LicenseRef-zkasuran-SAND-1.0",
   "type": "module",
   "packageManager": "pnpm@11.25.0",
   "scripts": {

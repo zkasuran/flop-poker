@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // A complete Hold'em hand played entirely in the browser with the real mental-poker crypto:
 // aggregate keygen, a verifiable shuffle in turn, threshold unmask, betting, side pots and a

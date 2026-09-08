@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Nim: a sequential perfect-information game, here to prove the non-simultaneous path.
 // Players alternate removing one or more objects from a single heap. Normal play: whoever

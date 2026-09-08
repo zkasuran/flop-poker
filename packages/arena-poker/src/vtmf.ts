@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Verifiable threshold masking (Barnett-Smart). Every seat generates a key share and
 // proves knowledge of it (Schnorr PoK, which blocks a rogue-key seat from cancelling the

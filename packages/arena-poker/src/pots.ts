@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Side-pot construction and award. Every chip a player commits over a hand goes into a
 // layered set of pots: a player is eligible for a layer only up to what they put in, so an

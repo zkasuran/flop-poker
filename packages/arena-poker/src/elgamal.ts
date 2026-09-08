@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // ElGamal over ristretto255, the masking half of the VTMF. A card is a point M; a
 // ciphertext under the aggregate key pk with randomness r is (r·G, M + r·pk). Remasking

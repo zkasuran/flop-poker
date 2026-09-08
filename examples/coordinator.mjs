@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // A tournament coordinator, offline. Builds a bracket from the arena/1 helpers and prints the
 // schedule. A live coordinator opens a table per pairing in the tournament room, reads each

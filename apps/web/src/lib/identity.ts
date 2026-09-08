@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 // A persisted ephemeral did:key. The seed lives in localStorage, never leaves the browser.
 import { bytesToHex, hexToBytes, identityFromSecretSeed, randomBytes, type Identity } from "@flop-poker/arena";
 

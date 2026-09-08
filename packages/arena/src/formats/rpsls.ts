@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Rock Paper Scissors Lizard Spock: the five-move variant. Each move beats two others.
 

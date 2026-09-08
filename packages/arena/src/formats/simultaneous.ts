@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // The simultaneous-move engine: commit-reveal, shared by rock-paper-scissors and its
 // relatives, matching pennies, and the coin-flip randomness beacon. Both players commit

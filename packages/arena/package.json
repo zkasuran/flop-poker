@@ -2,7 +2,7 @@
   "name": "@flop-poker/arena",
   "version": "0.1.0",
   "description": "arena/1: an open decentralized game protocol on technocore.chat — signed frames, did:key identity, transport, pluggable formats, gating, tournaments",
-  "license": "Apache-2.0",
+  "license": "LicenseRef-zkasuran-SAND-1.0",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

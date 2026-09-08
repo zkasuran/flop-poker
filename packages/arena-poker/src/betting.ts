@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // One street of betting. Pure reducer: it validates and applies fold / check / call / bet /
 // raise / all-in in turn order, enforces the min-raise rule, tracks the current bet and

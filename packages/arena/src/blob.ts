@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Content-addressed note blobs. A signed room frame is capped at one single-line message,
 // far smaller than a poker shuffle proof, so bulk payloads live in notes keyed by their

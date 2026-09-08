@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Gating: who may take a seat. A gate is declared in the `open` frame and enforced by
 // admit() on the client. It is a convention clients honor, not a server capability —

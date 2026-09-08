@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // The required end-to-end proof: a complete three-handed Texas Hold'em hand played to
 // showdown with an all-in side pot, using real mental-poker crypto for keygen, the

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 // Copy the installable skills into public/ so the site serves /skill.md and /skills/<id>.md.
 // One source of truth (../../skills); this build step is the only copy.
 import { cpSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";

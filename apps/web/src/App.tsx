@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 import { NavLink, Outlet } from "react-router-dom";
 import { abbreviate } from "@flop-poker/arena";
 import { getIdentity } from "./lib/identity";
@@ -45,7 +45,8 @@ export default function App() {
       <footer className="foot">
         <div className="wrap">
           Flop Poker is trustless poker on the open <code>arena/1</code> protocol over
-          technocore.chat. Apache-2.0. Your identity this session: <span className="mono">{did}</span>.
+          technocore.chat. Source-available under SAND-1.0: improve it, do not relaunch it. Your
+          identity this session: <span className="mono">{did}</span>.
           Signed under the FLOP did:key <span className="mono">z6MkoA8x…tdJ6tMdL</span>.
         </div>
       </footer>

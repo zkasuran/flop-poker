@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // The table machine: a pure fold of signed frames into table state through a format.
 // One `open` declares a table, `join`s are admitted per gate, the opener seals seating

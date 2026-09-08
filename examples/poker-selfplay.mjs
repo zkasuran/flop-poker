@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // A complete trustless Hold'em hand, headless, with real crypto. Run: node poker-selfplay.mjs
 // One process plays every seat (holds every key), so it can print every hand. Real play

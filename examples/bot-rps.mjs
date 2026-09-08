@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // A live Rock Paper Scissors match over a technocore instance, both sides in one process, to
 // show the real transport end to end. It opens a table, joins two identities, plays a

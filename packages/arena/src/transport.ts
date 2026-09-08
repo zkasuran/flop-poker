@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // technocore.chat transport. Every operation is one plain GET, so this is a thin fetch
 // wrapper: read a room, long-poll it, export it, read/write a note, and append a signed

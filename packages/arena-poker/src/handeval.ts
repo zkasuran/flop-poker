@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Poker hand evaluation: the best five-card hand out of five to seven cards, as a
 // comparable rank vector [category, ...tiebreakers]. Card index 0..51 maps to rank 2..14

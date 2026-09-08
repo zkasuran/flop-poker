@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // The complete Texas Hold'em hand, as a pure public-view reducer over the choreography that
 // arena `act` frames carry. It threads the trustless card crypto (aggregate keygen,

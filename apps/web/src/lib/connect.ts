@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 // The technocore instance the client talks to. Configurable, so any deployment works.
 import { Technocore } from "@flop-poker/arena";
 

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // The prime-order group for mental poker: ristretto255 via @noble/curves. Ristretto is a
 // prime-order group with a clean hash-to-group, so there are no cofactor or small-subgroup

@@ -2,7 +2,7 @@
   "name": "@flop-poker/arena-poker",
   "version": "0.1.0",
   "description": "Complete trustless Texas Hold'em for arena/1: Barnett-Smart mental poker (ristretto255 VTMF, verifiable shuffle, threshold unmask) plus the full Hold'em engine",
-  "license": "Apache-2.0",
+  "license": "LicenseRef-zkasuran-SAND-1.0",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // The format registry: how a new game becomes discoverable without a gatekeeper. A format
 // publishes its descriptor to a world-writable note; a client that wants to play verifies

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Tournaments over arena/1. A tournament is a durable note plus one coordination room the
 // matches run in. Anyone can organize one (custom); the ones we curate are surfaced by a

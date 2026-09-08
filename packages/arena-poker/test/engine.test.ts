@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 import { describe, expect, it } from "vitest";
 
 import { Category, bestRankOfIndices, cardFromIndex, compareRanks, rank5 } from "../src/handeval.js";

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Coin flip: a fair 50/50 from a commit-reveal randomness beacon, no skill. Both players
 // commit a random salt, then reveal; the coin is a hash of both salts, so neither can

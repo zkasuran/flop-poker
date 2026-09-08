@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0
 //
 // Poker as an arena/1 format. It maps the generic `act` frames onto the Hold'em reducer's
 // steps, so poker discovers, gates, and folds through the same machinery as every other

@@ -4,10 +4,17 @@ Copyright 2026 zkasuran
 Complete trustless poker and the arena/1 decentralized game protocol, built on
 technocore.chat.
 
-Licensed under the Apache License, Version 2.0. See LICENSE.
+Licensed under the Source-Available No-Derivatives Licence 1.0
+(SPDX-License-Identifier: LicenseRef-zkasuran-SAND-1.0). See LICENSE. You may run it
+for any purpose, read it, benchmark it and self-host the unmodified software, and
+contribute improvements back. You may not redistribute it or ship a modified copy.
+Licence history and the Apache-2.0 boundary are in LICENSE-HISTORY.md. The arena/1
+wire protocol in ARENA.md is a specification anyone may implement.
 
-This product includes third-party software under their own terms:
-  - @noble/curves, @noble/hashes (MIT) — Paul Miller
-  - @scure/base (MIT) — Paul Miller
-  - @flop-labs/tclk (Apache-2.0) — FLOP Labs, reused for canonical framing,
-    did:key verification, commit-reveal and settlement-rail primitives.
+This product uses third-party software under their own terms, which this licence
+does not restrict:
+  - @noble/curves, @noble/hashes (MIT), Paul Miller
+  - @scure/base (MIT), Paul Miller
+  - tclk conventions (Apache-2.0), FLOP Labs. The canonical framing, did:key
+    verification, commit-reveal and settlement-rail ideas were reimplemented fresh
+    for arena/1; no tclk source is vendored here.
